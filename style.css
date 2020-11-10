@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: inline-block;
+  margin: 0.5rem 0;
+  width: 50%;
+}
+
+.img {
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    display: block;
+  }
+  .img-container {
+    display: inline-block;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+}
